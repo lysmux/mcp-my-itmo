@@ -1,0 +1,4 @@
+{"error_code": 0, "error_message": null, "result": {"isu": 100000, "programs": [
+  {"planId": 400, "specializationId": 3, "name": "Old programme", "isActive": false},
+  {"planId": 500, "specializationId": null, "name": "Programme", "isActive": true}
+]}}

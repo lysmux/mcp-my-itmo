@@ -1,0 +1,12 @@
+{"error_code": null, "error_message": null, "result": [
+  {"name": "Операционные системы", "discipline_id": 4567, "est_id": 111,
+   "current_score": 85, "rate": "A", "attempt": 1,
+   "control_type": "Экзамен", "control_type_id": 1, "exam_date": "2026-12-20",
+   "have_tree": true, "lms_link": null,
+   "teacher": {"surname": "Иванов", "name": "Иван", "patronymic": "Иванович"}},
+  {"name": "Физкультура", "discipline_id": 4568, "est_id": 112,
+   "current_score": null, "rate": null, "attempt": null,
+   "control_type": "Зачет", "control_type_id": 2, "exam_date": null,
+   "have_tree": false, "lms_link": null,
+   "teacher": null}
+]}

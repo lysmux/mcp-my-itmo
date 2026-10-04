@@ -1,0 +1,13 @@
+{"error_code": null, "error_message": null, "result": [
+  {"room_id": 101, "room_name": "Переговорная 1", "room_number": "1201",
+   "category": {"category_id": 73, "category_name": "Коворкинги", "min_days": null, "max_days": null},
+   "group": {"group_id": 6, "group_name": "Коворкинги и переговорные", "can_book_unconfirmed": true},
+   "building_id": 3, "address": "Ломоносова, 9", "area": "25", "floor": "2",
+   "min_cap": 1, "max_cap": 8, "min_booking_days": 0, "max_booking_days": null,
+   "equipment": [], "photo_link": null, "photo_link_extension": null,
+   "photo_link_small": null, "photo_link_small_extension": null},
+  {"room_id": 102, "room_name": "Переговорная 2", "room_number": null,
+   "category": null, "group": null, "building_id": null, "address": "Ломоносова, 9",
+   "area": null, "floor": null, "min_cap": null, "max_cap": 4,
+   "min_booking_days": null, "max_booking_days": null, "equipment": null}
+]}

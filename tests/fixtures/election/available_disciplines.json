@@ -1,0 +1,3 @@
+{"error_code":0,"error_message":null,"result":[
+{"dcId":1,"discId":501,"langId":1,"depName":"Faculty of Programming","depNameShort":"FP","discName":"Machine Learning","langCode":"EN","required":false,"description":"Intro to ML","semesters":[{"semester":1,"statusId":1,"statusName":"Available","groupFlow":"gf-501-1","themes":null}],"notCompatibleWith":[502]},
+{"dcId":2,"discId":502,"langId":2,"depName":null,"depNameShort":null,"discName":"Data Mining","langCode":"RU","required":true,"description":null,"semesters":null,"notCompatibleWith":null}]}

@@ -1,0 +1,1 @@
+{"error_code":0,"error_message":null,"result":[{"groupFlow":"gf-501-1","disciplineId":501,"disciplineName":"Machine Learning","flows":[{"id":9001,"name":"Lectures","limitMax":null,"teachers":["Ivanov I.I."],"variants":null,"workType":1,"available":true,"selections":[1]}]}]}

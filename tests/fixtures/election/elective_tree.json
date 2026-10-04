@@ -1,0 +1,1 @@
+{"error_code":0,"error_message":null,"result":{"json":[{"id":10,"name":"Module group","required":true,"selections":[1],"variants":[{"id":501,"name":"Philosophy of Science","required":false,"selections":null,"language":"ru","variants":[{"id":7001,"name":"Lecture flow","work_type":1,"teachers":["Petrov P.P."],"variants":null}]}]}]}}

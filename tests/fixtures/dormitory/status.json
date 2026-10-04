@@ -1,0 +1,1 @@
+{"error_code":0,"error_message":"","result":{"statusId":3,"dormType":"dorm","queuePlace":null,"assignedDormitory":{"buildingId":43,"name":"Dormitory 1","address":"1 Example St","settlementProcedureText":"<p>Bring a passport</p>"},"appointment":{"timeSlot":"2026-08-28T10:30:00+03:00","canRemoveUntil":"2026-08-27T10:30:00"}}}

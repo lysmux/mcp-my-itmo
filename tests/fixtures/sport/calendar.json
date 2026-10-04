@@ -1,0 +1,19 @@
+{
+  "error_code": 0,
+  "error_message": "",
+  "result": [
+    {
+      "date": "2026-10-06",
+      "lessons": [
+        {
+          "id": 9001,
+          "section_name": "Volleyball",
+          "time_slot_start": "10:00",
+          "time_slot_end": "11:30",
+          "room_name": "Gym 1",
+          "signed": true
+        }
+      ]
+    }
+  ]
+}

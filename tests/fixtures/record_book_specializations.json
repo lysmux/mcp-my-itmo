@@ -1,0 +1,7 @@
+{"error_code": null, "error_message": null, "result": [
+  {"main_plan": 88681, "specialization_name": "Программная инженерия",
+   "semesters": [
+     {"study_year": "2026/2027", "semester": 5, "sem_id": 202620271, "course": 3, "actual": true},
+     {"study_year": "2026/2027", "semester": 6, "sem_id": 202620272, "course": 3, "actual": false}
+   ]}
+]}

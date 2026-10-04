@@ -1,0 +1,6 @@
+{"error_code": 0, "error_message": "", "result": {
+  "student": [{"problem": "Library debt", "decision": "Problem", "decision_id": 1, "comment": null, "action": "link", "url": "https://lib.example", "action_id": null}],
+  "departments": [
+    {"department": "Dormitory", "problem": "Key", "decision": "Cleared", "decision_id": 3, "contact_person_id": 7, "contact_person_name": "A B", "comment": "", "sort_order": 1, "actions": [{"action": "req", "action_id": 5, "comment": "file"}]},
+    {"department": "Library", "problem": null, "decision": null, "decision_id": 2, "actions": ""}
+  ]}}

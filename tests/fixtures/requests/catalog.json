@@ -1,0 +1,5 @@
+{"error_code":0,"error_message":null,"result":[
+ {"id":"3","name":"Certificates","color":"1","icon":"icon icon-other","requests":[
+  {"id":101,"name":"Study certificate","category_id":"3"},
+  {"id":102,"name":"Military certificate","category_id":3}]},
+ {"id":4,"name":"Empty category","requests":null}]}

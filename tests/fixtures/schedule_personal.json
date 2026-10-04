@@ -1,0 +1,130 @@
+{
+  "code": 0,
+  "message": null,
+  "data": [
+    {
+      "day_number": 1,
+      "week_number": 40,
+      "date": "2026-09-28",
+      "note": null,
+      "type": null,
+      "lessons": [
+        {
+          "pair_id": 1,
+          "subject": "Операционные системы",
+          "subject_id": 4001,
+          "note": null,
+          "type": "Лекция",
+          "time_start": "11:30",
+          "time_end": "13:00",
+          "teacher_id": 901,
+          "teacher_name": "Иванов Иван Иванович",
+          "room": "1234",
+          "building": "Кронверкский пр., д.49",
+          "format": "Очный",
+          "work_type": "Лекции",
+          "work_type_id": 1,
+          "group": "M3100",
+          "flow_type_id": 2,
+          "flow_id": 55,
+          "zoom_url": null,
+          "zoom_password": null,
+          "zoom_info": null
+        },
+        {
+          "pair_id": 2,
+          "subject": "Алгоритмы и структуры данных",
+          "subject_id": 4002,
+          "note": null,
+          "type": "Практика",
+          "time_start": "13:30",
+          "time_end": "15:00",
+          "teacher_id": 902,
+          "teacher_name": "Петрова Анна Сергеевна",
+          "room": null,
+          "building": "Кронверкский пр., д.49",
+          "format": "Онлайн",
+          "work_type": "Лекции",
+          "work_type_id": 1,
+          "group": "M3100",
+          "flow_type_id": 2,
+          "flow_id": 55,
+          "zoom_url": null,
+          "zoom_password": null,
+          "zoom_info": null
+        }
+      ]
+    },
+    {
+      "day_number": 2,
+      "week_number": 40,
+      "date": "2026-09-29",
+      "note": null,
+      "type": null,
+      "lessons": []
+    },
+    {
+      "day_number": 3,
+      "week_number": 40,
+      "date": "2026-09-30",
+      "note": null,
+      "type": null,
+      "lessons": [
+        {
+          "pair_id": 3,
+          "subject": "Базы данных",
+          "subject_id": 4003,
+          "note": null,
+          "type": "Лабораторная работа",
+          "time_start": "15:30",
+          "time_end": "17:00",
+          "teacher_id": 903,
+          "teacher_name": "Сидоров Пётр Олегович",
+          "room": "2210",
+          "building": "Кронверкский пр., д.49",
+          "format": "Очный",
+          "work_type": "Лекции",
+          "work_type_id": 1,
+          "group": "M3100",
+          "flow_type_id": 2,
+          "flow_id": 55,
+          "zoom_url": null,
+          "zoom_password": null,
+          "zoom_info": null
+        }
+      ]
+    },
+    {
+      "day_number": 4,
+      "week_number": 40,
+      "date": "2026-10-01",
+      "note": null,
+      "type": null,
+      "lessons": []
+    },
+    {
+      "day_number": 5,
+      "week_number": 40,
+      "date": "2026-10-02",
+      "note": null,
+      "type": null,
+      "lessons": []
+    },
+    {
+      "day_number": 6,
+      "week_number": 40,
+      "date": "2026-10-03",
+      "note": null,
+      "type": null,
+      "lessons": []
+    },
+    {
+      "day_number": 7,
+      "week_number": 40,
+      "date": "2026-10-04",
+      "note": null,
+      "type": null,
+      "lessons": []
+    }
+  ]
+}

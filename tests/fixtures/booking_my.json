@@ -1,0 +1,10 @@
+{"error_code": null, "error_message": null, "result": {"count": 1, "list": [
+  {"booking_id": 5001, "start_datetime": "2026-10-13T11:30:00", "end_datetime": "2026-10-13T13:00:00",
+   "name": "Практика", "participants": 1, "owner_isu": 123456, "owner_fio": "Иван Иванов",
+   "contact_phone": "+70000000000",
+   "room": {"room_id": 101, "room_name": "Переговорная 1", "room_number": "1201",
+            "address": "Ломоносова, 9", "min_booking_days": 0, "max_booking_days": null},
+   "equipment": [], "status": {"status_id": 2, "status_name": "Согласована"},
+   "invite": null, "additional_info": null, "event": null, "co_bookers": [],
+   "created_at": "2026-10-01T10:00:00"}
+]}}

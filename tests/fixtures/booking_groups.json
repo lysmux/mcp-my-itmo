@@ -1,0 +1,4 @@
+{"error_code": null, "error_message": null, "result": [
+  {"group_id": 6, "group_name": "Коворкинги и переговорные", "can_book_unconfirmed": true},
+  {"group_id": 7, "group_name": "Аудитории", "can_book_unconfirmed": null}
+]}

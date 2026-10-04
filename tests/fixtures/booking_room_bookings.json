@@ -1,0 +1,10 @@
+{"error_code": null, "error_message": null, "result": [
+  {"room_id": 101, "room_name": "Переговорная 1", "room_number": "1201", "address": "Ломоносова, 9",
+   "bookings": [
+     {"start_datetime": "2026-10-13T11:30:00", "end_datetime": "2026-10-13T13:00:00", "status": 2},
+     {"start_datetime": "2026-10-13T09:00:00", "end_datetime": "2026-10-13T10:00:00",
+      "status": {"status_id": 1, "status_name": "На согласовании"}}
+   ]},
+  {"room_id": 102, "room_name": "Переговорная 2", "room_number": null, "address": "Ломоносова, 9",
+   "bookings": null}
+]}

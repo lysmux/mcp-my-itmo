@@ -1,0 +1,38 @@
+{
+  "error_code": 0,
+  "error_message": "",
+  "result": [
+    {
+      "date": "2026-10-06",
+      "lessons": [
+        {
+          "id": 9001,
+          "date": "2026-10-06T10:00:00Z",
+          "date_end": "2026-10-06T11:30:00Z",
+          "section_id": 7,
+          "section_name": "Volleyball",
+          "lesson_group_id": 300,
+          "lesson_level": 2,
+          "type_id": 1,
+          "room_name": "Gym 1",
+          "limit": 20,
+          "available": 5,
+          "time_slot_start": "10:00",
+          "time_slot_end": "11:30",
+          "intersection": false,
+          "can_sign_in": {
+            "can_sign_in": false,
+            "unavailable_reasons": [
+              "Already chosen"
+            ]
+          },
+          "teacher_fio": "Ivanov I.I."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "lessons": null
+    }
+  ]
+}

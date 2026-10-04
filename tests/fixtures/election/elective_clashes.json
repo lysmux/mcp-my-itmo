@@ -1,0 +1,1 @@
+{"error_code":109,"error_message":"Flows clash with the timetable","result":[{"flow1":{"flow_id":7001,"date":"2026-09-10T09:00:00"},"flow2":{"flow_id":7002,"date_start":"2026-09-10T09:30:00"},"intersection_type":2}]}

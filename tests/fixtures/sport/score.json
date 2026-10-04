@@ -1,0 +1,21 @@
+{
+  "error_code": 0,
+  "error_message": "",
+  "result": {
+    "sum": {
+      "attendances": 45,
+      "other": 5
+    },
+    "attendances": [
+      {
+        "type": "lesson",
+        "name": "Volleyball",
+        "evaluation_name": "Attendance",
+        "score": 3,
+        "date": "2026-09-10T00:00:00Z",
+        "is_competition": false,
+        "place": ""
+      }
+    ]
+  }
+}

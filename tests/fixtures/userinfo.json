@@ -1,0 +1,18 @@
+{
+  "sub": "00000000-0000-0000-0000-000000000000",
+  "isu": 123456,
+  "preferred_username": "student123456",
+  "name": "Ivan Ivanov",
+  "given_name": "Ivan",
+  "family_name": "Ivanov",
+  "middle_name": "Ivanovich",
+  "email": "user@example.com",
+  "edu_email": "user@niuitmo.example",
+  "birthdate": "2003-01-01",
+  "gender": "male",
+  "groups": ["M3100"],
+  "is_student": true,
+  "email_verified": true,
+  "zoneinfo": "Europe/Moscow",
+  "locale": "ru"
+}

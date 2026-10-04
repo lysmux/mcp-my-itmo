@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+  Hand-authored from the same keycloakify template as login_page.html, modelling
+  the Keycloak OTP/TOTP step (pageId "login-otp"). The second authentication
+  factor posts a one-time code to the same login-actions/authenticate action.
+
+  Two OTP signals are present so detection is robust regardless of how a theme
+  exposes the step: the kcContext `pageId` is "login-otp", and the rendered form
+  carries an input named `otp` labelled as a one-time code.
+-->
+<html>
+<head>
+<script>
+const kcContext = {
+    "pageId": "login-otp",
+    "realm": { "name": "itmo", "displayName": "ITMO ID" },
+    "url": {
+        "loginAction": "https://id.itmo.ru/auth/realms/itmo/login-actions/authenticate?session_code=OTPsess_code_abc123&execution=otp-9f0a-4b2c-authenticate&client_id=student-personal-cabinet&tab_id=SOYqCda8Hxg&client_data=eyJydSI6Imh0dHBzOi8vbXkuaXRtby5ydS9sb2dpbiIsInJ0IjoiY29kZSIsInN0IjoicHJvYmUifQ",
+        "resourcesPath": "/auth/resources/nw8ep/login/itmo-id"
+    },
+    "login": {},
+    "auth": { "selectedCredential": "" }
+};
+</script>
+</head>
+<body>
+<div id="app">
+  <form id="kc-otp-login-form" action="https://id.itmo.ru/auth/realms/itmo/login-actions/authenticate?session_code=OTPsess_code_abc123&execution=otp-9f0a-4b2c-authenticate&client_id=student-personal-cabinet&tab_id=SOYqCda8Hxg&client_data=eyJydSI6Imh0dHBzOi8vbXkuaXRtby5ydS9sb2dpbiIsInJ0IjoiY29kZSIsInN0IjoicHJvYmUifQ" method="post">
+    <label for="otp">One-time code</label>
+    <input id="otp" name="otp" type="text" autocomplete="one-time-code" autofocus />
+    <input name="login" type="submit" value="Sign In" />
+  </form>
+</div>
+</body>
+</html>

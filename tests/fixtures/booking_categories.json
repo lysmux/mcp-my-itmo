@@ -1,0 +1,4 @@
+{"error_code": null, "error_message": null, "result": [
+  {"category_id": 73, "category_name": "Коворкинги", "min_days": null, "max_days": null},
+  {"category_id": 74, "category_name": "Переговорные", "min_days": 1, "max_days": 14}
+]}

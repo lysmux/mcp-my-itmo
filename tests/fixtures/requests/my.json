@@ -1,0 +1,4 @@
+{"error_code":0,"error_message":null,"result":[
+ {"id":9001,"name":"Study certificate","notice":null,"status":0,"status_name":"In progress","created_at":"2026-09-01T10:00:00+03:00","updated_at":"2026-09-02T10:00:00+03:00"},
+ {"id":9002,"name":"Military certificate","notice":"Ready","status":1,"status_name":"Done","created_at":"2026-08-01T10:00:00+03:00","updated_at":null},
+ {"id":9003,"name":"Other","notice":"No","status":2,"status_name":"Rejected","created_at":null,"updated_at":null}]}

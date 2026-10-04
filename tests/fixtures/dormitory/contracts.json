@@ -1,0 +1,1 @@
+{"error_code":0,"error_message":"","result":[{"contractId":55,"name":"Dormitory","number":"D-1","dateStart":"2026-09-01","dateEnd":"2027-06-30","active":true,"balance":"-4200","payments":[{"period":"2026 autumn","sum":4200,"paid":"0","payUntil":"2026-10-15"}]},{"contractId":56,"payments":null}]}

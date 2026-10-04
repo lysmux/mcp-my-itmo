@@ -1,0 +1,3 @@
+{"error_code":0,"error_message":null,"result":{"id":9001,"request_name":"Study certificate","request_status":"In progress","request_state":"Review","request_status_tag":"progress","request_create_date":"2026-09-01T10:00:00+03:00",
+ "agreement_list":[{"fio":"Ivanov I.I.","context_name":"Dean office","decision":"Pending","decision_date":null}],
+ "entered_fields":[{"name":"Purpose","type":"text","data":"Embassy","file_name":null,"multiple_data":null}]}}

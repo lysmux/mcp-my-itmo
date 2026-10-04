@@ -1,0 +1,22 @@
+{"error_code": 0, "error_message": null, "result": {
+  "id": 500, "currentSemester": 5, "currentSemesterId": 9, "semestersCount": 8,
+  "planInfo": {"directionCode": "01.03.02", "directionName": "Direction", "levelQualification": "bachelor", "planType": "base", "programName": "Programme", "startYear": 2024},
+  "semesters": [{"semester": 5, "semesterId": 9, "semesterParity": 1, "studyYear": "2026/2027"}],
+  "structure": [
+    {"id": 1, "name": "Block 1", "type": "block", "children": [
+      {"id": 3, "name": "Module", "type": "module", "moduleId": 3, "children": [
+        {"id": 100, "name": "Discipline A", "type": "discipline", "moduleId": 3, "creditPoints": 3,
+         "department": {"id": 1, "name": "Department", "shortName": "DEP"},
+         "contents": {"5": [{"id": 11, "moduleId": 3, "disciplineId": 100, "order": 1, "semester": 5, "creditPoints": 3,
+           "activities": [
+             {"id": 1, "contentId": 11, "name": "Lectures", "volume": 32, "workTypeId": 1},
+             {"id": 3, "contentId": 11, "name": "Self-study", "volume": 40, "workTypeId": 4},
+             {"id": 2, "contentId": 11, "name": "Exam", "volume": null, "workTypeId": 5}]}]}},
+        {"id": 101, "name": "Discipline B", "type": "discipline", "moduleId": 3, "creditPoints": 4,
+         "contents": {"6": [{"id": 12, "moduleId": 3, "disciplineId": 101, "order": 1, "semester": 6, "creditPoints": 4,
+           "activities": [{"id": 4, "contentId": 12, "name": "Credit", "volume": null, "workTypeId": 6}]}]}},
+        {"id": 102, "name": "Discipline C", "type": "discipline", "moduleId": 3, "contents": null}
+      ]}
+    ]}
+  ]
+}}

@@ -1,0 +1,3 @@
+{"error_code":0,"error_message":null,"result":{"template_description":"<p>Info</p>","template_files":null,"user_can_apply_now":true,"user_cannot_apply_now_reason":null,
+ "fields_data":[{"field_id":11,"field_name":"Purpose","field_note":null,"field_type":"text","required_field_flag":true,"default_value":null,"multiple_choice":false,"dictionary_id":null},
+ {"field_id":12,"field_name":"Copies","field_type":"number","required_field_flag":false}]}}

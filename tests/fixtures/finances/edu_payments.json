@@ -1,0 +1,1 @@
+{"error_code":0,"error_message":"","result":[{"contractId":1001,"name":"Tuition","number":"42-X","dateStart":"2025-09-01","dateEnd":"2029-08-31","active":true,"balance":"0","payments":[{"period":"2026 autumn","sum":150000,"paid":"100000.00","payUntil":"2026-10-15"},{"period":"2027 spring","sum":150000,"paid":null,"payUntil":null}]},{"contractId":2,"payments":null}]}

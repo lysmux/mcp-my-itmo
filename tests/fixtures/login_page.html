@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+  Trimmed capture of the live ITMO ID (Keycloak) login page served by
+  GET https://id.itmo.ru/auth/realms/itmo/protocol/openid-connect/auth
+
+  The ITMO realm uses a keycloakify (React) theme: the page ships a `kcContext`
+  object and the login form is rendered client-side. The server-side HTML holds
+  no <form>; the form's POST target lives in `kcContext.url.loginAction`, and all
+  per-attempt state (session_code, execution, tab_id, client_data) is carried in
+  that URL's query string rather than in hidden inputs. The React form POSTs
+  `username` + `password` (form-urlencoded) to that action.
+-->
+<html>
+<head>
+<script>
+const kcContext = {
+    "pageId": "login",
+    "realm": { "name": "itmo", "displayName": "ITMO ID" },
+    "url": {
+        "loginAction": "https://id.itmo.ru/auth/realms/itmo/login-actions/authenticate?session_code=YJ0hJytMbDbFvouJ6a_WkH-6e0aZbm6cgXKo6sfZjgI&execution=7db2448a-e998-4527-8831-184f67f677f9&client_id=student-personal-cabinet&tab_id=SOYqCda8Hxg&client_data=eyJydSI6Imh0dHBzOi8vbXkuaXRtby5ydS9sb2dpbiIsInJ0IjoiY29kZSIsInN0IjoicHJvYmUifQ",
+        "oauthAction": "/auth/realms/itmo/login-actions/authenticate",
+        "resourcesPath": "/auth/resources/nw8ep/login/itmo-id",
+        "loginResetCredentialsUrl": "/auth/realms/itmo/login-actions/reset-credentials?client_id=student-personal-cabinet&tab_id=SOYqCda8Hxg",
+        "registrationUrl": "/auth/realms/itmo/login-actions/registration?client_id=student-personal-cabinet&tab_id=SOYqCda8Hxg"
+    },
+    "login": {},
+    "auth": { "selectedCredential": "" },
+    "registrationDisabled": false
+};
+</script>
+</head>
+<body>
+<div id="app"></div>
+</body>
+</html>

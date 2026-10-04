@@ -1,0 +1,25 @@
+[project]
+name = "mcp-my-itmo"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "anyio>=4.15.1",
+    "httpx>=0.28.1",
+    "mcp<2",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+    "structlog>=26.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "respx>=0.23.1",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+
